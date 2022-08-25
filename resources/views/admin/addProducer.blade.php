@@ -589,43 +589,31 @@
                                                 {{Session::get('success')}}
                                             </div>
                                         @endif
-                                        <form action="{{url('update-product')}}" method="POST" enctype="multipart/form-data">
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product ID</h5></label>
-                                                <input type="text" name="id" class="form-control" placeholder="Enter product ID" value="{{$data->productID}}" readonly>
+                                        <form action="{{url('save-producer')}}" method="post" enctype="multipart/form-data">
+                                        @csrf
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="review-content-section">
+                                                    <div class="input-group mg-b-pro-edt">
+                                                        <span class="input-group-addon"><i class="icon nalika-edit" aria-hidden="true"></i></span>
+                                                        <input type="text" class="form-control" name="id" placeholder="Enter producer ID">
+                                                    </div>
+                                                    <div class="input-group mg-b-pro-edt">
+                                                        <span class="input-group-addon"><i class="icon nalika-edit" aria-hidden="true"></i></span>
+                                                        <input type="text" class="form-control" name="name" placeholder="Enter producer Name">
+                                                    </div>
+                                                </div>
                                             </div>
-                                            @csrf
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Name</h5></label>
-                                                <input type="text" name="name" class="form-control" placeholder="Enter product name" value="{{$data->productName}}">
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="text-center custom-pro-edt-ds">
+                                                    <button type="submit" class="btn btn-ctl-bt waves-effect waves-light m-r-10">Save</button>
+                                                    <a class="btn btn-ctl-bt waves-effect waves-light" href="{{url('producer-list')}}">Back</a>
+                                                </div>
                                             </div>
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Image1</h5></label>
-                                                <input type="file" name="image1" class="form-control" placeholder="Enter product image" value="{{url('public')}}/admin/img/product-Image/.{{$data->productImage1}}">
-                                            </div>
-                                            <div class="md-3">
-                                                <label for="producer" class="form-label">Category</label>
-                                                <select name="producer" class="form-control">
-                                                    @foreach ($producer as $row)
-                                                        <option value="{{$row->producerID}}">{{$row->producerName}}</option>
-                                                    @endforeach
-                                                </select>
-                                            </div>
-                                            </div>
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Details</h5></label>
-                                                <textarea name="details" row ="5" class="form-control" placeholder="Enter product details" value="{{$data->productDetail}}"></textarea>
-                                            </div>
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Price</h5></label>
-                                                <input type="text" name="price" class="form-control" placeholder="Enter product price" value="{{$data->productPrice}}">
-                                            </div>
-                                            <div>
-                                                <br>
-                                                <button type = "submit" class="btn btn-primary">SUBMIT</button>
-                                                <a href="{{url('Product-list')}}" class="btn btn-success">BACK</a>
-                                            </div>
-                                        </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

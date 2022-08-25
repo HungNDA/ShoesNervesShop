@@ -1,68 +1,68 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Product List | Shoes Nerves Shop - Admin Template </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- favicon
-            ============================================ -->
-        <link rel="shortcut icon" type="{{url('public')}}/admin/image/x-icon" href="{{url('public')}}/admin/img/favicon.ico">
-        <!-- Google Fonts
-            ============================================ -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
-        <!-- Bootstrap CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/bootstrap.min.css">
-        <!-- Bootstrap CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/font-awesome.min.css">
-        <!-- nalika Icon CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}admin/css/nalika-icon.css">
-        <!-- owl.carousel CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/owl.carousel.css">
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/owl.theme.css">
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/owl.transitions.css">
-        <!-- animate CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/animate.css">
-        <!-- normalize CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/normalize.css">
-        <!-- meanmenu icon CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/meanmenu.min.css">
-        <!-- main CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/main.css">
-        <!-- morrisjs CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/morrisjs/morris.css">
-        <!-- mCustomScrollbar CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/scrollbar/jquery.mCustomScrollbar.min.css">
-        <!-- metisMenu CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/metisMenu/metisMenu.min.css">
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/metisMenu/metisMenu-vertical.css">
-        <!-- calendar CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/calendar/fullcalendar.min.css">
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/calendar/fullcalendar.print.min.css">
-        <!-- style CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/style.css">
-        <!-- responsive CSS
-            ============================================ -->
-        <link rel="stylesheet" href="{{url('public')}}/admin/css/responsive.css">
-        <!-- modernizr JS
-            ============================================ -->
-        <script src="{{url('public')}}/admin/js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Product List | Shoes Nerves Shop - Admin Template </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+		============================================ -->
+    <link rel="shortcut icon" type="{{url('public')}}/admin/image/x-icon" href="{{url('public')}}/admin/img/favicon.ico">
+    <!-- Google Fonts
+		============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/bootstrap.min.css">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/font-awesome.min.css">
+	<!-- nalika Icon CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}admin/css/nalika-icon.css">
+    <!-- owl.carousel CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/owl.carousel.css">
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/owl.theme.css">
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/owl.transitions.css">
+    <!-- animate CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/animate.css">
+    <!-- normalize CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/normalize.css">
+    <!-- meanmenu icon CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/meanmenu.min.css">
+    <!-- main CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/main.css">
+    <!-- morrisjs CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/morrisjs/morris.css">
+    <!-- mCustomScrollbar CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- metisMenu CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/metisMenu/metisMenu-vertical.css">
+    <!-- calendar CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/calendar/fullcalendar.print.min.css">
+    <!-- style CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/style.css">
+    <!-- responsive CSS
+		============================================ -->
+    <link rel="stylesheet" href="{{url('public')}}/admin/css/responsive.css">
+    <!-- modernizr JS
+		============================================ -->
+    <script src="{{url('public')}}/admin/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
 
 <body>
     <!--[if lt IE 8]>
@@ -75,7 +75,6 @@
                 <a href="index-2.html"><img class="main-logo" src="{{url('public')}}/admin/img/logo/Logoweb.png" alt="" /></a>
                 <strong><img src="{{url('public')}}/admin/img/logo/logosn.png" alt="" /></strong>
             </div>
-
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
                     <ul class="metismenu" id="menu1">
@@ -85,10 +84,8 @@
 								   <span class="mini-click-non">Ecommerce</span>
 								</a>
                             <ul class="submenu-angle" aria-expanded="true">
-
                                 <li><a title="Dashboard v.3" href="index-2.html"><span class="mini-sub-pro">Dashboard</span></a></li>
                                 <li><a title="Product List" href="product-list.html"><span class="mini-sub-pro">Product List</span></a></li>
-                                <li><a title="Product Edit" href="product-add.html"><span class="mini-sub-pro">Product Edit</span></a></li>
                             </ul>
                         </li>
                         <li id="removable">
@@ -140,6 +137,7 @@
                                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                         <div class="header-right-info">
                                             <ul class="nav navbar-nav mai-top-nav header-right-menu">
+
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
 															<i class="icon nalika-user nalika-user-rounded header-riht-inf" aria-hidden="true"></i>
@@ -542,11 +540,12 @@
                 </div>
             </div>
 
+
             <div class="breadcome-area">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="breadcome-list">
+							<div class="breadcome-list">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         <div class="breadcomb-wp">
@@ -554,7 +553,7 @@
 												<i class="icon nalika-home"></i>
 											</div>
 											<div class="breadcomb-ctn">
-												<h2>Product Add</h2>
+												<h2>Product List</h2>
 												<p>Welcome to Shoes Nerves Shop <span class="bread-ntd">Admin Template</span></p>
 											</div>
 										</div>
@@ -571,63 +570,44 @@
                 </div>
             </div>
         </div>
-        <!-- Single pro tab start-->
-        <div class="single-product-tab-area mg-b-30">
-            <!-- Single pro tab review Start-->
-            <div class="single-pro-review-area">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="review-tab-pro-inner">
-                                <ul id="myTab3" class="tab-review-design">
-                                    <li class="active"><a href="#description"><i class="icon nalika-edit" aria-hidden="true"></i> Product Edit</a></li>
-                                </ul>
-                                <div id="myTabContent" class="tab-content custom-product-edit">
-                                    <div class="product-tab-list tab-pane fade active in" id="description">
-                                        @if (Session::has('success'))
-                                            <div class="alert alert-success" role="alert">
-                                                {{Session::get('success')}}
-                                            </div>
-                                        @endif
-                                        <form action="{{url('update-product')}}" method="POST" enctype="multipart/form-data">
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product ID</h5></label>
-                                                <input type="text" name="id" class="form-control" placeholder="Enter product ID" value="{{$data->productID}}" readonly>
-                                            </div>
-                                            @csrf
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Name</h5></label>
-                                                <input type="text" name="name" class="form-control" placeholder="Enter product name" value="{{$data->productName}}">
-                                            </div>
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Image1</h5></label>
-                                                <input type="file" name="image1" class="form-control" placeholder="Enter product image" value="{{url('public')}}/admin/img/product-Image/.{{$data->productImage1}}">
-                                            </div>
-                                            <div class="md-3">
-                                                <label for="producer" class="form-label">Category</label>
-                                                <select name="producer" class="form-control">
-                                                    @foreach ($producer as $row)
-                                                        <option value="{{$row->producerID}}">{{$row->producerName}}</option>
-                                                    @endforeach
-                                                </select>
-                                            </div>
-                                            </div>
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Details</h5></label>
-                                                <textarea name="details" row ="5" class="form-control" placeholder="Enter product details" value="{{$data->productDetail}}"></textarea>
-                                            </div>
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Price</h5></label>
-                                                <input type="text" name="price" class="form-control" placeholder="Enter product price" value="{{$data->productPrice}}">
-                                            </div>
-                                            <div>
-                                                <br>
-                                                <button type = "submit" class="btn btn-primary">SUBMIT</button>
-                                                <a href="{{url('Product-list')}}" class="btn btn-success">BACK</a>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
+        <div class="product-status mg-b-30">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="product-status-wrap">
+                            <h4>Products List</h4>
+                            <div class="add-product">
+                                <a href="{{url('add-producer')}}">Add Producer</a>
+                            </div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Producer Id</th>
+                                        <th>Producer Name</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                @foreach($data as $row)
+                                <tr>
+                                    <th>{{$row->producerID}}</th>
+                                    <th>{{$row->producerName}}</th>
+                                    <td>
+                                        <button data-toggle="tooltip" title="Edit" class="pd-setting-ed"> <a href="{{url('edit-producer/' . $row->producerID)}}" class="btn btn-primary">Edit</a></button>
+                                        <button data-toggle="tooltip" title="Delete" class="pd-setting-ed"><a href="{{url('delete-producer/' . $row->producerID)}}" class="btn btn-danger"
+                                            onclick="return confirm('Are you sure?');">Delete</a></button>
+                                    </td>
+                                </tr>
+                                @endforeach
+                            </tbody>
+                            </table>
+                            <div class="custom-pagination">
+								<ul class="pagination">
+									<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+									<li class="page-item"><a class="page-link" href="#">1</a></li>
+									<li class="page-item"><a class="page-link" href="#">2</a></li>
+									<li class="page-item"><a class="page-link" href="#">3</a></li>
+									<li class="page-item"><a class="page-link" href="#">Next</a></li>
+								</ul>
                             </div>
                         </div>
                     </div>
@@ -682,15 +662,12 @@
     <!-- morrisjs JS
 		============================================ -->
     <script src="{{url('public')}}/admin/js/sparkline/jquery.sparkline.min.js"></script>
-    <script src="js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="{{url('public')}}/admin/js/sparkline/jquery.charts-sparkline.js"></script>
     <!-- calendar JS
 		============================================ -->
     <script src="{{url('public')}}/admin/js/calendar/moment.min.js"></script>
-    <script src="js/calendar/fullcalendar.min.js"></script>
-    <script src="js/calendar/fullcalendar-active.js"></script>
-    <!-- tab JS
-		============================================ -->
-    <script src="{{url('public')}}/admin/js/tab.js"></script>
+    <script src="{{url('public')}}/admin/js/calendar/fullcalendar.min.js"></script>
+    <script src="{{url('public')}}/admin/js/calendar/fullcalendar-active.js"></script>
     <!-- plugins JS
 		============================================ -->
     <script src="{{url('public')}}/admin/js/plugins.js"></script>

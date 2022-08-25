@@ -589,41 +589,20 @@
                                                 {{Session::get('success')}}
                                             </div>
                                         @endif
-                                        <form action="{{url('update-product')}}" method="POST" enctype="multipart/form-data">
+                                        <form action="{{url('update-producer')}}" method="POST" enctype="multipart/form-data">
                                             <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product ID</h5></label>
-                                                <input type="text" name="id" class="form-control" placeholder="Enter product ID" value="{{$data->productID}}" readonly>
+                                                <label class="form-label" for="id"><h5 id ="txt-h2">Producer ID</h5></label>
+                                                <input type="text" name="id" class="form-control" placeholder="Enter product ID" value="{{$producer->producerID}}" readonly>
                                             </div>
                                             @csrf
                                             <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Name</h5></label>
-                                                <input type="text" name="name" class="form-control" placeholder="Enter product name" value="{{$data->productName}}">
-                                            </div>
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Image1</h5></label>
-                                                <input type="file" name="image1" class="form-control" placeholder="Enter product image" value="{{url('public')}}/admin/img/product-Image/.{{$data->productImage1}}">
-                                            </div>
-                                            <div class="md-3">
-                                                <label for="producer" class="form-label">Category</label>
-                                                <select name="producer" class="form-control">
-                                                    @foreach ($producer as $row)
-                                                        <option value="{{$row->producerID}}">{{$row->producerName}}</option>
-                                                    @endforeach
-                                                </select>
-                                            </div>
-                                            </div>
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Details</h5></label>
-                                                <textarea name="details" row ="5" class="form-control" placeholder="Enter product details" value="{{$data->productDetail}}"></textarea>
-                                            </div>
-                                            <div class="md-3">
-                                                <label class="form-label" for="id"><h5 id ="txt-h2">Product Price</h5></label>
-                                                <input type="text" name="price" class="form-control" placeholder="Enter product price" value="{{$data->productPrice}}">
+                                                <label class="form-label" for="id"><h5 id ="txt-h2">Producer Name</h5></label>
+                                                <input type="text" name="name" class="form-control" placeholder="Enter product name" value="{{$producer->producerName}}">
                                             </div>
                                             <div>
                                                 <br>
                                                 <button type = "submit" class="btn btn-primary">SUBMIT</button>
-                                                <a href="{{url('Product-list')}}" class="btn btn-success">BACK</a>
+                                                <a href="{{url('producer-list')}}" class="btn btn-success">BACK</a>
                                             </div>
                                         </form>
                                     </div>
