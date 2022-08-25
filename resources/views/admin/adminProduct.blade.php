@@ -146,7 +146,7 @@
 															<i class="icon nalika-down-arrow nalika-angle-dw nalika-icon"></i>
 														</a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                        <li><a href="login.html"><span class="icon nalika-unlocked author-log-ic"></span> Log Out</a>
+                                                        <li><a href="#"><span class="icon nalika-unlocked author-log-ic"></span>Hello</a>
                                                         </li>
                                                     </ul>
                                                 </li>

@@ -9,6 +9,7 @@ class ProductController extends Controller
 {
 
     //Phan nay cua Hung
+
 //    public function index()
 //    {
 //     $data = Tbproduct::get();
@@ -29,7 +30,6 @@ class ProductController extends Controller
         $details = $request->details;
         $image1 = $request->file('image1')->getClientOriginalName();
         $request->image1->move(public_path('admin/img/product-Image'),$image1);
-
         $producer = $request->producer;
 
         $product = new Tbproduct();
@@ -40,6 +40,7 @@ class ProductController extends Controller
         $product->productDetail = $details;
         $product->productImage1 = $image1;
         $product->producerID = $producer;
+
         $product->save();
 
         return redirect()->back()->with('success', 'Product added successfully!');

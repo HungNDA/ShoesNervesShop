@@ -94,7 +94,7 @@
                         <li id="removable">
                             <a class="has-arrow" href="#" aria-expanded="false"><i class="icon nalika-new-file icon-wrap"></i> <span class="mini-click-non">Pages</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Login" href="login.html"><span class="mini-sub-pro">Login</span></a></li>
+                                <li><a title="Login" href="#"><span class="mini-sub-pro">Login</span></a></li>
                             </ul>
                         </li>
                     </ul>
@@ -147,7 +147,7 @@
 															<i class="icon nalika-down-arrow nalika-angle-dw nalika-icon"></i>
 														</a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
-                                                        <li><a href="login.html"><span class="icon nalika-unlocked author-log-ic"></span> Log Out</a>
+                                                        <li><a href="#"><span class="icon nalika-unlocked author-log-ic"></span> Hello</a>
                                                         </li>
                                                     </ul>
                                                 </li>

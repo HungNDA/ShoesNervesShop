@@ -100,7 +100,7 @@
             </div>
         </header>
         <!-- Header Area End -->
-        <div class="w3-content w3-section" style="max-width:1300px">
+        <div class="w3-content w3-section" style="max-width:1000px">
             <img class="mySlides" src="{{ url('public') }}/fe/img/bg-img/shoes.png">
             <img class="mySlides" src="{{ url('public') }}/fe/img/bg-img/shoes2.png">
             <img class="mySlides" src="{{ url('public') }}/fe/img/bg-img/shoes3.png">
