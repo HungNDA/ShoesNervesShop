@@ -1,11 +1,11 @@
 (function ($) {
-    'use strict';
+    "use strict";
 
     var $window = $(window);
 
     // :: 1.0 Masonary Gallery Active Code
 
-    var proCata = $('.amado-pro-catagory');
+    var proCata = $(".amado-pro-catagory");
     var singleProCata = ".single-products-catagory";
 
     if ($.fn.imagesLoaded) {
@@ -14,63 +14,63 @@
                 itemSelector: singleProCata,
                 percentPosition: true,
                 masonry: {
-                    columnWidth: singleProCata
-                }
+                    columnWidth: singleProCata,
+                },
             });
         });
     }
 
     // :: 2.1 Search Active Code
-    var amadoSearch = $('.search-nav');
-    var searchClose = $('.search-close');
+    var amadoSearch = $(".search-nav");
+    var searchClose = $(".search-close");
 
-    amadoSearch.on('click', function () {
-        $('body').toggleClass('search-wrapper-on');
+    amadoSearch.on("click", function () {
+        $("body").toggleClass("search-wrapper-on");
     });
 
-    searchClose.on('click', function () {
-        $('body').removeClass('search-wrapper-on');
+    searchClose.on("click", function () {
+        $("body").removeClass("search-wrapper-on");
     });
 
     // :: 2.2 Mobile Nav Active Code
-    var amadoMobNav = $('.amado-navbar-toggler');
-    var navClose = $('.nav-close');
+    var amadoMobNav = $(".amado-navbar-toggler");
+    var navClose = $(".nav-close");
 
-    amadoMobNav.on('click', function () {
-        $('.header-area').toggleClass('bp-xs-on');
+    amadoMobNav.on("click", function () {
+        $(".header-area").toggleClass("bp-xs-on");
     });
 
-    navClose.on('click', function () {
-        $('.header-area').removeClass('bp-xs-on');
+    navClose.on("click", function () {
+        $(".header-area").removeClass("bp-xs-on");
     });
 
     // :: 3.0 ScrollUp Active Code
     if ($.fn.scrollUp) {
         $.scrollUp({
             scrollSpeed: 1000,
-            easingType: 'easeInOutQuart',
-            scrollText: '<i class="fa fa-angle-up" aria-hidden="true"></i>'
+            easingType: "easeInOutQuart",
+            scrollText: '<i class="fa fa-angle-up" aria-hidden="true"></i>',
         });
     }
 
     // :: 4.0 Sticky Active Code
-    $window.on('scroll', function () {
+    $window.on("scroll", function () {
         if ($window.scrollTop() > 0) {
-            $('.header_area').addClass('sticky');
+            $(".header_area").addClass("sticky");
         } else {
-            $('.header_area').removeClass('sticky');
+            $(".header_area").removeClass("sticky");
         }
     });
 
     // :: 5.0 Nice Select Active Code
     if ($.fn.niceSelect) {
-        $('select').niceSelect();
+        $("select").niceSelect();
     }
 
     // :: 6.0 Magnific Active Code
     if ($.fn.magnificPopup) {
-        $('.gallery_img').magnificPopup({
-            type: 'image'
+        $(".gallery_img").magnificPopup({
+            type: "image",
         });
     }
 
@@ -90,18 +90,18 @@
     }
 
     // :: 10.0 PreventDefault a Click
-    $("a[href='#']").on('click', function ($) {
+    $("a[href='#']").on("click", function ($) {
         $.preventDefault();
     });
 
     // :: 11.0 Slider Range Price Active Code
-    $('.slider-range-price').each(function () {
-        var min = jQuery(this).data('min');
-        var max = jQuery(this).data('max');
-        var unit = jQuery(this).data('unit');
-        var value_min = jQuery(this).data('value-min');
-        var value_max = jQuery(this).data('value-max');
-        var label_result = jQuery(this).data('label-result');
+    $(".slider-range-price").each(function () {
+        var min = jQuery(this).data("min");
+        var max = jQuery(this).data("max");
+        var unit = jQuery(this).data("unit");
+        var value_min = jQuery(this).data("value-min");
+        var value_max = jQuery(this).data("value-max");
+        var label_result = jQuery(this).data("label-result");
         var t = $(this);
         $(this).slider({
             range: true,
@@ -109,11 +109,19 @@
             max: max,
             values: [value_min, value_max],
             slide: function (event, ui) {
-                var result = label_result + " " + unit + ui.values[0] + ' - ' + unit + ui.values[1];
+                var result =
+                    label_result +
+                    " " +
+                    unit +
+                    ui.values[0] +
+                    " - " +
+                    unit +
+                    ui.values[1];
                 console.log(t);
-                t.closest('.slider-range').find('.range-price').html(result);
-            }
+                t.closest(".slider-range").find(".range-price").html(result);
+            },
         });
     });
 
 })(jQuery);
+

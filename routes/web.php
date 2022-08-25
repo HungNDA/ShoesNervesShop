@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DashboardController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,3 +40,9 @@ Route::get('/login-admin-view', [AuthController::class, 'loginAdminView'])->midd
 Route::post('login-admin', [AuthController::class, 'loginAdmin'])->name('login-admin');
 Route::get('/Product-list', [AuthController::class, 'indexAdmin'])->middleware('isLoggedInAdmin');
 Route::get('/logout-admin', [AuthController::class, 'logoutAdmin']);
+
+//dashboard
+Route::get('Home', [DashboardController::class, 'DashComp']);
+Route::get('About', [DashboardController::class, 'DashIndex']);
+Route::get('Shop', [DashboardController::class, 'DashProduct']);
+Route::get('detail/{id}', [DashboardController::class, 'details']);

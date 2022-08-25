@@ -84,7 +84,7 @@
 								   <span class="mini-click-non">Ecommerce</span>
 								</a>
                             <ul class="submenu-angle" aria-expanded="true">
-                                <li><a title="Dashboard v.3" href="index-2.html"><span class="mini-sub-pro">Dashboard</span></a></li>
+                                <li><a title="Dashboard v.3" href="{{url('Home')}}"><span class="mini-sub-pro">Dashboard</span></a></li>
                                 <li><a title="Product List" href="product-list.html"><span class="mini-sub-pro">Product List</span></a></li>
                             </ul>
                         </li>
@@ -596,7 +596,7 @@
                                 <tr>
                                     <th>{{$row->productID}}</th>
                                     <th>{{$row->productName}}</th>
-                                    <th>{{$row->productPrice}}</th>
+                                    <th>{{$row->productPrice}}$</th>
                                     <th>{{$row->productDetail}}</th>
                                     <td><img src="{{url('public')}}/admin/img/product-Image/{{$row->productImage1}}" width="150px" height="100px" alt=""/></td>
                                     <th>{{$row->producerID}}</th>
